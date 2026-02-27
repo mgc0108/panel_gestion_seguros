@@ -26,7 +26,7 @@ function App() {
     "SegurCaixa Adeslas", "Sanitas", "DKV", "Asisa", "FIATC", "Helvetia", "Aegon"
   ].sort();
 
-  const API_URL = 'http://localhost:3000/policies';
+  const API_URL = 'https://69a1b3d42e82ee536fa2038c.mockapi.io/policies';
 
   const fetchData = async () => {
     try {
